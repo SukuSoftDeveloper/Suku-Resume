@@ -14,11 +14,11 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | John Doe"
 PAGE_ICON = ":wave:"
-NAME = "John Doe"
+NAME = "Sudheer Kumar"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Associate Software Engineer, assisting enterprises by supporting data-driven decision-making.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "Sudheerannameti0406@e=gmail.com"
 SOCIAL_MEDIA = {
     "YouTube": "https://youtube.com/c/codingisfun",
     "LinkedIn": "https://linkedin.com",
@@ -26,10 +26,9 @@ SOCIAL_MEDIA = {
     "Twitter": "https://twitter.com",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Web Applications - Works with Rest API's and Performed Authentication & Authorization": "https://youtu.be/Sb0A9i6d320",
+    "🏆 Library Management System - Can store all books and assign books, Renew Books in the librarry etc.": "https://youtu.be/3egaMfE9388",
+    "🏆 Bug Tracking System - Can track the bugs raised by team members and fix it in short time": "https://youtu.be/LzCfNanQ_9c",
 }
 
 
@@ -73,9 +72,9 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ 2.3 Years expereince developing web applications
+- ✔️ Strong hands on experience and knowledge in C# , Python, Asp.Net Mvc and SQL.
+- ✔️ Good understanding of solid principles and their respective applications
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
@@ -86,10 +85,9 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 👩‍💻 Programming:C#, Asp.Net MVC, .Net Core and Web API
+- 📊 Tools: Visual Studio & Code , MS Sql Server and Github
+- 🗄️ Databases: MS Access , MS Sqlserver
 """
 )
 
@@ -100,20 +98,21 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**Associate Software Engineer | Mphasis Ltd**")
+st.write("04/2022 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Used C# , Asp.Net Mvc and SQL to create robust web based applications
+- ► Compiled, studied, and inferred large amounts of data,
+- ► Performed Unit Testing on applications and done POC's on the applications
+- ► Good knowledge creating Web API's with robust security and Implementation
 """
 )
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
+st.write("🚧", "**Trainee Associate Software Engineer | Mphasis Ltd**")
+st.write("01/2022 - 04/2022")
 st.write(
     """
 - ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
@@ -122,17 +121,6 @@ st.write(
 """
 )
 
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
-st.write(
-    """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
-"""
-)
 
 
 # --- Projects & Accomplishments ---
